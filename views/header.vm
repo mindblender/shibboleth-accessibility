@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Container ID: $custom['hostname'] -->
+  	<head>
+  	  <meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    	<title>#springMessageText("idp.title", "Web Login Service")</title>
+    	<link rel="stylesheet" type="text/css" href="$request.getContextPath()/css/main.css">
+		  $!pageSpecificHead
+  	</head>
+  	<body $!pageSpecificBodyTagAttributes>
+    <div class="wrapper">
+      <div class="container">
+        <header>
+          <img src="$request.getContextPath()#springMessage("idp.logo")" alt="#springMessageText("idp.logo.alt-text", "logo")">
+          $!pageSpecificHeader
+        </header>
